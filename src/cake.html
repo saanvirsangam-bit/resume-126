@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cake shop -Home </title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cake shop </h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Our Menu Items</h2>
+            <!-- Menu items will be dynamically added here or hardcoded with buttons -->
+            <div class="menu-item">
+                <h3>Item 1: stawberry cake </h3>
+                <p>Price: $10.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <h3>Item 2: chocolate cake</h3>
+                <p>Price: $5.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <h3>Item 3: chocolava</h3>
+                <p>Price: $7.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+
+        <aside id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items will be added here by JavaScript -->
+                </div>
+            <p id="total-price">Total Price: $0.00</p>
+            <button id="checkout-btn">Checkout</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Our Store</p>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
