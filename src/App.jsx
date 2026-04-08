@@ -31,6 +31,9 @@ function App() {
       }
     };
 
+
+    
+
     detstudent(data);
     setcollege(college);
     setskilldata(skills);
