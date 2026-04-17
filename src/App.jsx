@@ -15,7 +15,7 @@ function App() {
     const college = {
       name: "MAPS",
       collegeaddress: "Manglore",
-      phonenumber: "1234567890"
+      phonenumber: ""
     };
 
     const skills = {
