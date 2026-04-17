@@ -11,7 +11,7 @@ function App() {
       age: 18,
       course: "BCA"
     };
-
+<header></header>
     const college = {
       name: "MAPS",
       collegeaddress: "Manglore",
@@ -30,7 +30,6 @@ function App() {
         years: "2024-Present"
       }
     };
-
 
     
 
@@ -59,3 +58,4 @@ function App() {
 }
 
 export default App;
+
